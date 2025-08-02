@@ -11,14 +11,19 @@ Este proyecto es un programa en **Python** que determina si tres longitudes dada
 - ✅ Verifica si los lados cumplen la desigualdad triangular.  
 - ✅ Clasifica el triángulo en **Equilátero**, **Isósceles** o **Escaleno**.  
 - ✅ Uso simple desde la terminal.
+- ✅ Acepta números decimales con punto o coma decimal (ejemplo: 3.5 o 3,5).
+- ✅ Permite ingresar fracciones en formato a/b (ejemplo: 1/2).
+- ✅ Permite cancelar la ejecución ingresando q o salir.
+- ✅ Maneja errores inesperados con mensajes informativos.
+- ✅ No permite entradas de estilo **SPACE**
 
 ---
 
 ## **Instalación y Ejecución**
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/mi-primer-repo.git
-   cd mi-primer-repo
+   git clone https://github.com/Timosboy/Certi2.git
+   cd Certi2
 2. **Ejecutar el programa:**
    ```bash
    python3 certi2.py
@@ -28,19 +33,6 @@ Este proyecto es un programa en **Python** que determina si tres longitudes dada
    lado B: 4
    lado C: 5
    El triangulo es ESCALENO
-4. **Estructura del codigo:**
-- triangulovalido(a, b, c) → Verifica si las longitudes pueden formar un triángulo válido.
-
-- tipotriangulo(a, b, c) → Determina el tipo de triángulo:
-
-    - Equilátero → Todos los lados iguales.
-
-    - Isósceles → Dos lados iguales.
-
-    - Escaleno → Todos los lados diferentes.
-
-- main() → Maneja la interacción con el usuario y muestra el resultado.
-
 ---
 
 ## **Autor**
